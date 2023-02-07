@@ -36,3 +36,9 @@ we also have JS cartoon animate move around when play (voice)
 For the display of website, basic version is : only a JS cartoon with a AI generate picture background, and a date select window.
 
 advance version: multiple button include today weather, tomorrow weather, reset AI picture, reset AI picture
+
+# process
+
+When user choose a date, date -> "today weather good, temperature..." -> AI paragraph -> AI voice -> sheep jump jump when play AI voice.
+
+AI picture can be placed somewhere, or we don't use it

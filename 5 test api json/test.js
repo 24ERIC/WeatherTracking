@@ -7,7 +7,10 @@ async function populate() {
 
 
     const superHeroesText = await response.text();
-    document.getElementById("content").innerHTML = superHeroesText;
+    for (let i = 0; i < cars.length; i++) {
+        text += cars[i] + "<br>";
+    } 
+    document.getElementById("content").innerHTML =  JSON.stringify(JSON.parse(superHeroesText).properties.periods[0]);
   
     // const superHeroes = JSON.parse(superHeroesText);
     // populateHeader(superHeroes);

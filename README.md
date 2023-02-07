@@ -1,7 +1,6 @@
 # Idea
 
-- hisotry data
-    - 👍 https://github.com/jweyn/DLWP
+- history data
     - https://github.com/m-a-y-a-n-k/Weather-Prediction-Using-Neural-Networks
 - history weather data -> predict future specific day weather (short text)
     - https://github.com/jweyn/DLWP

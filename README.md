@@ -21,3 +21,18 @@
 
 
 
+# Basic idea
+
+Basic idea is: we use past weather data to predict future weather, and then it gives a brief description of weather, for example: Today weather is sunny, temporature is above 30, and moisture is 10%, wind..."
+(short description) send to AI, generator a paragraph, and a picture
+
+(paragraph) send to A! generate voice
+
+we also have JS cartoon animate move around when play (voice)
+
+
+# Design of website
+
+For the display of website, basic version is : only a JS cartoon with a AI generate picture background, and a date select window.
+
+advance version: multiple button include today weather, tomorrow weather, reset AI picture, reset AI picture

@@ -42,3 +42,8 @@ advance version: multiple button include today weather, tomorrow weather, reset 
 When user choose a date, date -> "today weather good, temperature..." -> AI paragraph -> AI voice -> sheep jump jump when play AI voice.
 
 AI picture can be placed somewhere, or we don't use it
+
+# past weather predict future weather
+
+What I prefer to do is: use this existing past data, to predict tomorrow weather, and we can use both past and tomorrow weather to predict the day after tomorrow
+

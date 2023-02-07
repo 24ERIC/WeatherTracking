@@ -1,19 +1,22 @@
 async function populate() {
 
-    const requestURL = 'https://api.weather.gov/gridpoints/LWX/96,70/forecast/hourly';
+    const requestURL = 'https://api.weather.gov/gridpoints/OKX/33,36/forecast';
     const request = new Request(requestURL);
   
     const response = await fetch(request);
-    const superHeroesText = await response.text();
-  
-    const superHeroes = JSON.parse(superHeroesText);
-    populateHeader(superHeroes);
-    populateHeroes(superHeroes);
 
-    let myObj = { name: "Chris", age: 38 };
-    myObj
-    let myString = JSON.stringify(myObj);
-    myString
+
+    const superHeroesText = await response.text();
+    document.getElementById("content").innerHTML = superHeroesText;
+  
+    // const superHeroes = JSON.parse(superHeroesText);
+    // populateHeader(superHeroes);
+    // populateHeroes(superHeroes);
+
+    // let myObj = { name: "Chris", age: 38 };
+    // myObj
+    // let myString = JSON.stringify(myObj);
+    // myString
   }
   
 
@@ -66,3 +69,4 @@ function populateHeroes(obj) {
         section.appendChild(myArticle);
     }
 }
+populate()

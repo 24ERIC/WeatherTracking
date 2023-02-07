@@ -1,4 +1,4 @@
-# Idea
+# Idea ✅
 
 - history data
     - https://github.com/m-a-y-a-n-k/Weather-Prediction-Using-Neural-Networks
@@ -18,6 +18,8 @@
 
 - other resource
     - 50 three.js examples (https://devsnap.me/three-js-examples)
+    - use api.weather.gov (https://benborgers.com/posts/weather-gov)
+    - 
 
 
 

@@ -23,6 +23,11 @@ async function populate() {
         + JSON.parse(superHeroesText).properties.periods[i].temperature 
         + " with wind speed of "
         + JSON.parse(superHeroesText).properties.periods[i].windSpeed
+        + " at "
+        + JSON.parse(superHeroesText).properties.periods[i].windDirection
+        + " direction. In Near Future, weather will be "
+        + JSON.parse(superHeroesText).properties.periods[i].detailedForecast
+        + "."
         );
 
   }

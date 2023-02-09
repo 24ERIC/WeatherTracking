@@ -16,9 +16,9 @@ let width,
     height;
 
 function init() {
-  width = window.innerWidth,
+  width = 1500,
   // height = window.innerHeight;
-  height = 600; // Eric
+  height = 400; // Eric
   
   scene = new THREE.Scene();
   camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
@@ -425,3 +425,6 @@ function toggleMusic() {
 
 init();
 animate();
+
+
+

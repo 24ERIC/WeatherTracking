@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    #form_1 {
+      margin-left: 37%;
+      /* margin-top: 100px; */
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <div class="world">
+    <script src="https://cdnjs.deepai.org/deepai.min.js"></script>
+    <p>---</p>
+    <p id="generatedText"></p>
+    <p id="temp">---</p>
+
+    <script src="./test.js" async defer></script>
+    <div action="" id="form_1">
+      <input type="date">
+      <input type="submit" onclick="paragraphGenerateAPI()">
+    </div>
+
+  </div>
+  <a class="toggle toggle-night">
+  </a>
+  <a class="toggle-music">
+  </a>
+
+  <audio class="world-music" src="https://res.cloudinary.com/liza/video/upload/v1492853426/sheep_qr3tus.m4a"></audio>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js'></script>
+  <script src='https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/controls/OrbitControls.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>

@@ -1,27 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <title>Sheep with three.js</title>
   <link rel="stylesheet" href="./style.css">
   <style>
     #form_1 {
       margin-left: 37%;
-      margin-top: 100px;
+      /* margin-top: 100px; */
     }
+
   </style>
 </head>
 
 <body>
   <!-- partial:index.partial.html -->
   <div class="world">
-    <form action="/action_page.php" id="form_1">
-      <input type="date" name="birthday">
-      <input type="submit">
-    </form>
+    <script src="https://cdnjs.deepai.org/deepai.min.js"></script>
+    <p>---</p>
+    <p id="generatedText"></p>
+    <p id="temp">---</p>
+
+    <script src="./test.js" async defer></script>
+    <div action="" id="form_1">
+      <input type="date">
+      <input type="submit" onclick="paragraphGenerateAPI()">
+    </div>
+
   </div>
-  <a class="toggle toggle-night"></a>
+  <a class="toggle toggle-night">
+  </a>
   <a class="toggle-music">
   </a>
 

@@ -7,18 +7,9 @@ WeatherTracting is made by Eric Zhou (from University of Toronto) and Dylan (fro
 
 Firstly, the program collect User Date Input and send it to [Government Weather API](https://weather.gov/) and output a short Forecasting Description. 
 
-Secondly, the program send the Forecasting Description to [DeepAI API](https://deepai.org/machine-learning-model/text-generator) and output a Weather Forecast Speech (text). The team also plan to use send Forecasting Description to [AI Image Generator](https://www.aiimagegenerator.org/) and output a picture as the background for forecasting website.
+Secondly, the program send the Forecasting Description to [DeepAI API](https://deepai.org/machine-learning-model/text-generator) and output a Weather Forecast Speech (Text). The team also plan to use send Forecasting Description to [AI Image Generator](https://www.aiimagegenerator.org/) and output a picture as the background for forecasting website.
 
-Thirdly, the program send the Weather Forecast Speech to 
-
-
-
-it gives a brief description of weather, for example: Today weather is sunny, temporature is above 30, and moisture is 10%, wind..."
-(short description) send to AI, generator a paragraph, and a picture
-
-(paragraph) send to A! generate voice
-
-we also have JS cartoon animate move around when play (voice)
+Thirdly, our team will implement the following features: the program send the Weather Forecast Speech to [AI Voice Generator]() and output the Speech (Audio) as the "backgroud music" of website. Also during the playing of audio Speech, sheep will jump whenever speech start.
 
 
 # Examples

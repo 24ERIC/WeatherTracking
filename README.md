@@ -1,31 +1,19 @@
-# Idea ✅
+# 💡 idea
 
-- history data
-    - https://github.com/m-a-y-a-n-k/Weather-Prediction-Using-Neural-Networks
-- history weather data -> predict future specific day weather (short text)
-    - https://github.com/jweyn/DLWP
-    - 👍 https://towardsdatascience.com/weather-forecasting-with-machine-learning-using-python-55e90c346647
-- (short text) -> generate (weather forecast paragraph)
-    - https://deepai.org/machine-learning-model/text-generator
-- (short text) + one initial picture -> generate (weather picture)
-    - https://www.aiimagegenerator.org/
-- (weather forecast paragraph) -> generate (weather forecast voice)
-    - https://www.voicebooking.com/en/free-voice-over-generator
-- animate carton guy move and speak by js
-    - https://codepen.io/elliezen/pen/GWbBrx
+WeatherTracting is made by Eric Zhou (from University of Toronto) and Dylan (from Westen University) during Global Hack Week (MLH online hackathon) from Feb.6 - Feb.9 2023. Our team creatively combine multiple advance ML and AI techniques together to actively tracking the weather with a broadcast commentator, a cute animate jumping sheep.
+
+
+# 🏗️ Process
+
+Firstly, the program collect User Date Input and send it to [Government Weather API](https://weather.gov/) and output a short Forecasting Description. 
+
+Secondly, the program send the Forecasting Description to [DeepAI API](https://deepai.org/machine-learning-model/text-generator) and output a Weather Forecast Speech (text). The team also plan to use send Forecasting Description to [AI Image Generator](https://www.aiimagegenerator.org/) and output a picture as the background for forecasting website.
+
+Thirdly, the program send the Weather Forecast Speech to 
 
 
 
-- other resource
-    - 50 three.js examples (https://devsnap.me/three-js-examples)
-    - use api.weather.gov (https://benborgers.com/posts/weather-gov)
-    - 
-
-
-
-# Basic idea
-
-Basic idea is: we use past weather data to predict future weather, and then it gives a brief description of weather, for example: Today weather is sunny, temporature is above 30, and moisture is 10%, wind..."
+it gives a brief description of weather, for example: Today weather is sunny, temporature is above 30, and moisture is 10%, wind..."
 (short description) send to AI, generator a paragraph, and a picture
 
 (paragraph) send to A! generate voice
@@ -33,19 +21,31 @@ Basic idea is: we use past weather data to predict future weather, and then it g
 we also have JS cartoon animate move around when play (voice)
 
 
-# Design of website
+# Examples
 
-For the display of website, basic version is : only a JS cartoon with a AI generate picture background, and a date select window.
+## Government Weather API
+[JSON file]() 
 
-advance version: multiple button include today weather, tomorrow weather, reset AI picture, reset AI picture
+## Forecasting Description
+A slight chance of rain after 5pm. Cloudy. High near 53, with temperatures falling to around 51 in the afternoon. Southeast wind 7 to 12 mph. Chance of precipitation is 20%.
 
-# process
+## AI Generated Image
+[Picture]()
 
-When user choose a date, date -> "today weather good, temperature..." -> AI paragraph -> AI voice -> sheep jump jump when play AI voice.
+## Weather Forecast Speech
 
-AI picture can be placed somewhere, or we don't use it
+## AI Generated Voice
+[Voice]()
 
-# past weather predict future weather
 
-What I prefer to do is: use this existing past data, to predict tomorrow weather, and we can use both past and tomorrow weather to predict the day after tomorrow
+# 📖 References
 
+- https://github.com/m-a-y-a-n-k/Weather-Prediction-Using-Neural-Networks
+- https://github.com/jweyn/DLWP
+- https://towardsdatascience.com/weather-forecasting-with-machine-learning-using-python-55e90c346647
+- https://deepai.org/machine-learning-model/text-generator
+- https://www.aiimagegenerator.org/
+- https://www.voicebooking.com/en/free-voice-over-generator
+- https://codepen.io/elliezen/pen/GWbBrx
+- https://devsnap.me/three-js-examples
+- https://benborgers.com/posts/weather-gov

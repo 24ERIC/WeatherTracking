@@ -12,7 +12,7 @@ Secondly, the program send the Forecasting Description to [DeepAI API](https://d
 Thirdly, our team will implement the following features: the program send the Weather Forecast Speech to [AI Voice Generator]() and output the Speech (Audio) as the "backgroud music" of website. Also during the playing of audio Speech, sheep will jump whenever speech start.
 
 
-# Examples
+# ✨ Examples
 
 ## Government Weather API
 [JSON file](https://github.com/24ERIC/WeatherTracking/blob/eric-js-test/Document/Government%20Weather%20API%20JSON%20file.json) 
@@ -21,12 +21,10 @@ Thirdly, our team will implement the following features: the program send the We
 A slight chance of rain after 5pm. Cloudy. High near 53, with temperatures falling to around 51 in the afternoon. Southeast wind 7 to 12 mph. Chance of precipitation is 20%.
 
 ## AI Generated Image
-[Picture]()
+[Picture](https://github.com/24ERIC/WeatherTracking/blob/eric-js-test/img/Ai%20Generated%20Image%20Example.png)
 
 ## Weather Forecast Speech
-
-## AI Generated Voice
-[Voice]()
+[File](https://github.com/24ERIC/WeatherTracking/blob/eric-js-test/Document/Weather%20Forecast%20Speech%20Example.txt)
 
 
 # 📖 References
@@ -40,3 +38,9 @@ A slight chance of rain after 5pm. Cloudy. High near 53, with temperatures falli
 - https://codepen.io/elliezen/pen/GWbBrx
 - https://devsnap.me/three-js-examples
 - https://benborgers.com/posts/weather-gov
+
+![](./img/1.png)
+![](./img/2.png)
+![](./img/3.png)
+![](./img/4.png)
+![](./img/5.png)
